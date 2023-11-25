@@ -29,7 +29,7 @@ check2 = mystr.endswith('n')
 
 # print(check2)
 
-# String index method : This method is used to returns the index of the first occurence of a substring 
+# String index method : This method is used to return the index of the first occurence of a substring 
 substrX= mystr[1:]
 lookup = mystr.index('r')
 # lookup2 = substrX.index('z')
@@ -93,4 +93,17 @@ newStr2 = mystr.count('r')
 
 newStr3 = mystr.replace('r','z')
 
-print(newStr3)
+# print(newStr3)
+
+# String strip method : This method removes all leading and trailing spaces in a string
+# len method : This method is used to return the number of items in an iterable 
+
+# Assignment : Research the word iterable as relating to python programming
+
+mystr4 = " amala "
+mystr4_len= len(mystr4)
+
+mystripped = mystr4.strip()
+print(mystr4_len)
+print(mystripped)
+print(len(mystripped))
