@@ -32,6 +32,8 @@ needle = list1.index(False)
 
 list3 = [1,2,3,4,5,6,7,8]
 
+
+
 list3.remove(2)
 
 # print(list3)
@@ -59,4 +61,21 @@ new_list = list3.copy()
 
 list3.insert(1,True)
 
+# print(list3)
+
+# List sort method : This method sorts a list in ascending order
+
+list3.reverse()
+
+list3.sort()
+
+# print(list3)
+
+# List pop method : This removes the item at the specified position
+
+# list3.pop(3)
+give_me = list3.pop(3)
+
 print(list3)
+print(give_me)
+
