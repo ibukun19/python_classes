@@ -19,4 +19,33 @@ checkindex = full_tuple.index("True")
 
 count_check = second_tuple.count(4)
 
-print(count_check)
+val = second_tuple[-1]
+
+# print(val)
+
+thistuple = ("apple",)
+# print(type(thistuple))
+
+thistuple2 = ("apple", "banana", "cherry", "orange", "kiwi", "melon", "mango")
+
+# print(thistuple2[2:5])
+
+# Tuples are unchangeable once created but here is a simple workaround
+
+convert_to_list = list(thistuple2)
+
+convert_to_list.remove('kiwi')
+convert_to_list.append('strawberries')
+
+get_back_tuple = tuple(convert_to_list)
+
+# print(get_back_tuple)
+
+fruits = ("apple", "banana", "cherry", "strawberry", "raspberry")
+fruits2 = ("apple", "banana", "cherry")
+
+(green, yellow, *red) = fruits
+
+print(green)
+print(yellow)
+print(red)
